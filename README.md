@@ -13,33 +13,6 @@ Reading: d.mid
 Action:
 ```
 
-### Search and Manipulation
-
-The 's' command allows the user to search for any and all midi events of a certain type. For example, searching for all "NoteOn" events will print them out as below: 
-
-```
-Action: s
-Search Name: NoteOn
-Results: 
-   [1] NoteOn: C5 velocity: 80
-   [2] NoteOn: C5 velocity: 0
-   [3] NoteOn: C5 velocity: 80
-   [4] NoteOn: C5 velocity: 0
-   [5] NoteOn: C5 velocity: 80
-   [6] NoteOn: C5 velocity: 0
-   [7] NoteOn: D5 velocity: 80
-   [8] NoteOn: D5 velocity: 0
-Would you like to do anything with these?: 
-```
-
-An 'n' will return the user to the previous options. 
-
-### Edit 
-
-**TODO**
-
-The 'e' command will let the user edit the specfied event, after a search. 
-
 ### Sequential Print 
 The 'p' command will print out the entire file's contents - organized first by tick location then track. 
 
@@ -109,6 +82,33 @@ NoteOn: D5 velocity: 0
 EndOfTrack
 
 ```
+
+### Search and Manipulation
+
+The 's' command allows the user to search for any and all midi events of a certain type. For example, searching for all "NoteOn" events will print them out as below: 
+
+```
+Action: s
+Search Name: NoteOn
+Results: 
+[1] NoteOn: C5 velocity: 80
+[2] NoteOn: C5 velocity: 0
+[3] NoteOn: C5 velocity: 80
+[4] NoteOn: C5 velocity: 0
+[5] NoteOn: C5 velocity: 80
+[6] NoteOn: C5 velocity: 0
+[7] NoteOn: D5 velocity: 80
+[8] NoteOn: D5 velocity: 0
+Would you like to do anything with these?: 
+```
+
+An 'n' will return the user to the previous options. 
+
+### Edit 
+
+**TODO**
+
+The 'e' command will let the user edit the specfied event, after a search. 
 
 ## File Writing 
 
