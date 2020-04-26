@@ -6,19 +6,19 @@ Command line app for directly visualizing and manipulating midi events/messages 
 Midi Visualizer will read any standard compliant .mid file: 
 
 ![alt-text](https://github.com/jaredheddinger/midiVisualizer/blob/master/Resources/SampleScore.png)
-'''
+```
 $ ./midiVisualizer 
 File: d.mid
 Reading: d.mid
 Action:
-'''
+```
 
 ### Search 
 
 ### Sequential Print 
 The score above, printed sequentially: 
 
-'''
+```
 ================================================================================
 0    
 Track 1:
@@ -54,7 +54,7 @@ NoteOn: D5 velocity: 80
 1895
 Track 1:
 NoteOn: D5 velocity: 0
-'''
+```
 
 ### Master Print 
 
