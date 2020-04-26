@@ -34,11 +34,11 @@ Would you like to do anything with these?:
 
 An 'n' will return the user to the previous options. 
 
-#### Edit 
+### Edit 
 
 **TODO**
 
-The 'e' command will let the user edit the specfied event. 
+The 'e' command will let the user edit the specfied event, after a search. 
 
 ### Sequential Print 
 The 'p' command will print out the entire file's contents - organized first by tick location then track. 
