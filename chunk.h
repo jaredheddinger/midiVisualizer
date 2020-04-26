@@ -20,7 +20,7 @@
 
 class Chunk {
 public:
-    //four char cstring - "MThd"
+    //four char cstring - "MThd" or "MTrk"
     char type[4];
     
     //length, in messages, of chunk

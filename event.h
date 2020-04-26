@@ -28,6 +28,7 @@ public:
     friend class Chunk;
     __int32_t absoluteTime;
 //    friend class chunk;
+    
     Event();
     Event(std::fstream &fileIn, __int8_t currentStatus);
     virtual ~Event() = default;
