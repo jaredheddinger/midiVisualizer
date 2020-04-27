@@ -68,7 +68,6 @@ trackChunk::trackChunk(std::fstream &fileIn) {
     while(keepReading) {
         keepReading = eventFactory(fileIn);
     }
-//    std::cout << "done\n";
 }
 
 //trackChunk::~trackChunk() {

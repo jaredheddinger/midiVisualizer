@@ -1,3 +1,7 @@
 *.mid
 *.txt
 midiVisualizer
+!CMakeLists.txt
+*.cmake
+Makefile
+CMakeFiles/
